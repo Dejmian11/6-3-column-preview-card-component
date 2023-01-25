@@ -1,0 +1,21 @@
+@use 'base.scss' as *;
+
+.wrapper {
+  margin-inline: 1.5rem;
+}
+
+.flow > *:not(:last-child) {
+  margin-bottom: var(--flow-space, 1rem);
+}
+
+.cards-container {
+  display: grid;
+  max-width: 485px;
+  border-radius: .5rem;
+  overflow: hidden;
+
+  @include respond(md) {
+    grid-auto-flow: column;
+    max-width: 920px;
+  }
+}
