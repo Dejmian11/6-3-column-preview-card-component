@@ -19,8 +19,8 @@ This is a solution to the [3-column preview card component challenge on Frontend
 
 ### Links
 
-- Solution URL: [Solution](https://your-solution-url.com)
-- Live Site URL: [Live](https://your-live-site-url.com)
+- Solution URL: [Solution](https://www.frontendmentor.io/solutions/3column-preview-card-component-2Qok5ZHkU_)
+- Live Site URL: [Live](https://rococo-faun-f412c1.netlify.app/)
 
 ## My process
 
