@@ -128,8 +128,7 @@ h3 {
 
 // GENERAL STYLING
 body {
-	display: grid;
-	place-content: center;
+  display: grid;
 
 	background-color: var(--clr-neutral-900);
 	color: var(--clr-neutral-800);
@@ -137,6 +136,10 @@ body {
 	font-family: var(--ff-body);
 	font-weight: var(--fw-regular);
   line-height: 1.7;
+
+  @include respond(lg) {
+    place-items: center;
+  }
 }
 
 // TYPOGRPHY
